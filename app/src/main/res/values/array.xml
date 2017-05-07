@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrMoiNhatAnGi">
+        <item>Mới nhất</item>
+        <item>Gần tôi</item>
+        <item>Xem nhiều</item>
+        <item>Du khách</item>
+    </string-array>
+
+    <string-array name="arrMoiNhatOdau">
+        <item>Mới nhất</item>
+        <item>Gần tôi</item>
+        <item>Phổ biến</item>
+        <item>Du khách</item>
+        <item>Đặt chỗ</item>
+        <item>Ưu đãi thẻ</item>
+        <item>Đặt giao hàng</item>
+
+    </string-array>
+
+    <string-array name="arrDanhMucOdau">
+        <item>Sang Trọng</item>
+        <item>Buffet</item>
+        <item>Nhà hàng</item>
+        <item>Ăn vặt/vỉa hè</item>
+        <item>Ăn chay</item>
+        <item>Café/Dessert</item>
+        <item>Quán ăn</item>
+        <item>Bar/Pub</item>
+        <item>Quán nhậu</item>
+        <item>Beer club</item>
+        <item>Tiệm bánh</item>
+        <item>Tiệc tận nơi</item>
+        <item>Shop Online</item>
+        <item>Giao cơm văn phòng</item>
+        <item>Khu Ẩm Thực</item>
+        <item>Việt Nam</item>
+        <item>Châu Mỹ</item>
+        <item>Mỹ</item>
+        <item>Tây Âu</item>
+        <item>Ý</item>
+        <item>Pháp</item>
+        <item>Đức</item>
+        <item>Tây Ban Nha</item>
+        <item>Trung Hoa</item>
+        <item>Ấn Độ</item>
+        <item>Thái Lan</item>
+        <item>Nhật Bản</item>
+        <item>Hàn Quốc</item>
+        <item>Malaysia</item>
+        <item>Quốc tế</item>
+
+    </string-array>
+
+    <string-array name="arrDanhMucAngi">
+        <item>Việt Nam</item>
+        <item>Châu Mỹ</item>
+        <item>Mỹ</item>
+        <item>Tây Âu</item>
+        <item>Ý</item>
+        <item>Pháp</item>
+        <item>Đức</item>
+        <item>Tây Ban Nha</item>
+        <item>Trung Hoa</item>
+        <item>Ân Độ</item>
+        <item>Thái Lan</item>
+        <item>Nhật Bản</item>
+        <item>Hàn Quốc</item>
+        <item>Malaysia</item>
+        <item>Quốc tế</item>
+        <item>Sang trọng</item>
+        <item>Buffet</item>
+        <item>Ăn vặt/vỉa hè</item>
+        <item>Ăn chay</item>
+        <item>Café/Dessert</item>
+        <item>Quán Ăn</item>
+        <item>Bar club</item>
+        <item>Tiệm bánh</item>
+        <item>Tiệc tận nơi</item>
+        <item>Shop Online</item>
+        <item>Giao cơm văn phòng</item>
+        <item>Khu ẩm thực</item>
+    </string-array>
+
+    <string-array name="tpHCM_Quan">
+        <item>Quận 1</item>
+        <item>Quận 2</item>
+        <item>Quận 3</item>
+        <item>Quận 4</item>
+        <item>Quận 5</item>
+        <item>Quận 6</item>
+        <item>Quận 7</item>
+        <item>Quận 8</item>
+        <item>Quận 9</item>
+        <item>Quận 10</item>
+        <item>Quận 11</item>
+        <item>Quận 12</item>
+        <item>Quận Bình Thạnh</item>
+        <item>Quận Tân Bình</item>
+        <item>Quận Phú Nhuận</item>
+        <item>Quận Tân Phú</item>
+        <item>Quận Gò Vấp</item>
+        <item>Quận Bình Tân</item>
+        <item>Quận Thủ Đức</item>
+        <item>Quận Bình Chánh</item>
+        <item>Nhà Bè</item>
+        <item>Hóc Môn</item>
+        <item>Củ Chi</item>
+        <item>Cần Giờ</item>
+    </string-array>
+    <string-array name="tpHCMDuong">
+        <item>131 Đường</item>
+        <item> 116 Đường</item>
+        <item>56 Đường</item>
+        <item>49 Đường</item>
+        <item>85 Đường</item>
+        <item>90 Đường</item>
+        <item>155 Đường</item>
+        <item>93 Đường</item>
+        <item>116 Đường</item>
+        <item>58 Đường</item>
+        <item>78 Đường</item>
+        <item>116 Đường</item>
+        <item>92 Đường</item>
+        <item>192 Đường</item>
+        <item>71 Đường</item>
+        <item>173 Đường</item>
+        <item>104 Đường</item>
+        <item>145 Đường</item>
+        <item>122 Đường</item>
+        <item>68 Đường</item>
+        <item>15 Đường</item>
+        <item>77 Đường</item>
+        <item>64 Đường</item>
+        <item>18 Đường</item>
+
+
+
+    </string-array>
+
+
+</resources>

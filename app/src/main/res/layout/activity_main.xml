@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    tools:context="com.example.ngockhanh.foodyverson1.MainActivity"
+    android:weightSum="1">
+
+    <!--Header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="#CC0000"
+        android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="@dimen/padding_10dp"
+           android:layout_marginLeft="20dp"
+           android:src="@drawable/ic_logo"/>
+      <RelativeLayout
+          android:layout_weight="5"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          >
+
+          <Button
+              android:id="@+id/btnEatWhere"
+
+              android:layout_width="@dimen/eat_what_where_width"
+              android:layout_height="@dimen/eat_what_where_height"
+              android:text="@string/eatwhere"
+              android:textColor="#000"
+              android:textAllCaps="false"
+              android:background="@drawable/shapedemo"/>
+
+          <Button
+              android:id="@+id/btnEatWhat"
+              android:layout_toRightOf="@+id/btnEatWhere"
+              android:layout_width="@dimen/eat_what_where_width"
+              android:layout_height="@dimen/eat_what_where_height"
+              android:text="@string/eatwhat"
+              android:textColor="#FFFFFF"
+              android:textAllCaps="false"
+              android:background="@drawable/shaperight"/>
+      </RelativeLayout>
+        <Button
+
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_common_menu_plus"/>
+
+    </LinearLayout>
+    <!--Header-->
+
+    <TabHost
+        android:id="@+id/TabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <TabWidget
+
+            android:id="@android:id/tabs"
+            android:layout_marginRight="1dp"
+            android:background="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+        </TabWidget>
+
+        <FrameLayout
+
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ListView
+                    android:visibility="visible"
+                    android:layout_weight="1"
+                    android:id="@+id/lvMoiNhat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </ListView>
+
+                <Button
+                    android:id="@+id/btnTest"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="meme"/>
+
+                <Button
+
+                    android:text="Hủy"
+                    android:background="#FFF"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnHuyMoiNhat" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:layout_weight="1"
+                    android:id="@+id/lvDanhMuc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                </ListView>
+
+                <Button
+                    android:id="@+id/btnHuyDanhMuc"
+                    android:text="Hủy"
+                    android:background="#FFF"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:layout_weight="1"
+                    android:id="@+id/lvTpHCM"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+                <Button
+                    android:id="@+id/btnHuyHCM"
+                    android:text="Hủy"
+
+                    android:background="#FFF"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/tab4"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:layout_weight="1"
+                    android:id="@+id/index"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+                <Button
+                    android:id="@+id/btnindex"
+                    android:text="haha"
+
+                    android:background="#FFF"
+                    android:textAllCaps="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+        </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+
+
+
+</LinearLayout>
