@@ -3,22 +3,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#727272"
     android:id="@+id/haha">
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             >
 
         </LinearLayout>
-
-    <Button
-        android:id="@+id/btnHuyHCM"
-        android:text="Hủy"
-        android:background="#FFF"
-        android:textAllCaps="false"
+    <LinearLayout
+        android:layout_weight="0.1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:background="#FFF"
+        >
+
+    </LinearLayout>
+
+
+
 </LinearLayout>

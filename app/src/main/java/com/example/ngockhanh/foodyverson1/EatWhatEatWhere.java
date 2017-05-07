@@ -44,12 +44,12 @@ public  class EatWhatEatWhere {
 
 
 
-    public EatWhatEatWhere(TabHost tabHost,int idListMoiNhat,int idListDanhMuc,int idListTinhThanh,int idtabIndex)
+    public EatWhatEatWhere(TabHost tabHost,int idListMoiNhat,int idListDanhMuc,int idListTinhThanh)
     {
         this.idListMoiNhat=idListMoiNhat;
         this.idListDanhMuc=idListDanhMuc;
         this.idListTinhThanh=idListTinhThanh;
-        this.idtabIndex=idtabIndex;
+
         this.tabHost=tabHost;
     }
 
@@ -89,9 +89,6 @@ public  class EatWhatEatWhere {
         tabTpHCM.setIndicator("TP.HCM");
         tabTpHCM.setContent(idListTinhThanh);
 
-        TabHost.TabSpec tabIndex=tabHost.newTabSpec("TP.HCM");
-        tabIndex.setIndicator("index");
-        tabIndex.setContent(idtabIndex);
 
         tabHost.addTab(tabMoiNhat);
         tabHost.addTab(tabDanhMuc);

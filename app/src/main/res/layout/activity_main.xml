@@ -97,27 +97,100 @@
                 android:orientation="vertical">
                 <ListView
                     android:visibility="visible"
-                    android:layout_weight="1"
+                    android:layout_weight="0.1"
                     android:id="@+id/lvMoiNhat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                 </ListView>
 
                 <Button
-                    android:id="@+id/btnTest"
-                    android:visibility="gone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="meme"/>
-
-                <Button
-
+                    android:layout_weight="0.001"
+                    android:visibility="visible"
                     android:text="Hủy"
                     android:background="#FFF"
                     android:textAllCaps="false"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/btnHuyMoiNhat" />
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/Index"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#727272">
+                        </LinearLayout>
+                    <LinearLayout
+
+                     android:layout_weight="0.07"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal"
+                     android:background="#FFF">
+                        <ImageButton
+                            android:id="@+id/btnHome"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_ic_home"
+                            android:layout_gravity="center"
+                            android:background="#FFF"
+                            />
+                        <ImageButton
+                            android:id="@+id/btnCollection"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_ic_collection"
+                            android:layout_gravity="center"
+                            android:background="#FFF"
+                            />
+                        <ImageButton
+                            android:id="@+id/btnSearch"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/dn_ic_vector_search_black"
+                            android:layout_gravity="center"
+                            android:background="#FFF"
+                            />
+                        <ImageButton
+                            android:id="@+id/btnBell"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_ic_bell"
+                            android:layout_gravity="center"
+                            android:background="#FFF"
+                            />
+                        <ImageButton
+                            android:id="@+id/btnUser"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vector_tab_user"
+                            android:layout_gravity="center"
+                            android:background="#FFF"
+                            />
+                     </LinearLayout>
+
+                    <Button
+                        android:visibility="gone"
+                        android:text="Hủy"
+                        android:background="#FFF"
+                        android:textAllCaps="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         />
+                </LinearLayout>
+
+
+
             </LinearLayout>
 
             <LinearLayout
@@ -172,40 +245,6 @@
                      />
 
             </LinearLayout>
-
-
-
-            <LinearLayout
-                android:id="@+id/tab4"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ListView
-                    android:layout_weight="1"
-                    android:id="@+id/index"
-
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                </ListView>
-
-                <Button
-                    android:id="@+id/btnindex"
-                    android:text="haha"
-
-                    android:background="#FFF"
-                    android:textAllCaps="false"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    />
-
-            </LinearLayout>
-
-
-
-
 
 
         </FrameLayout>

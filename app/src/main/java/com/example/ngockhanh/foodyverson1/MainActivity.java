@@ -168,15 +168,21 @@ public class MainActivity extends Activity  {
 
 
 
+
     }
 
     void xuli(){
         ListView listView=(ListView)findViewById(R.id.lvMoiNhat);
         listView.setVisibility(View.GONE);
       btnHuyMoiNhat.setVisibility(View.GONE);
-        Button btn=(Button)findViewById(R.id.btnTest);
-        btn.setVisibility(View.VISIBLE);
+
         tabHost.setCurrentTab(0);
+        LinearLayout linearLayout=(LinearLayout) findViewById(R.id.Index);
+        linearLayout.setVisibility(View.VISIBLE);
+        tabHost.getTabWidget().getChildAt(tabHost.getCurrentTab())
+                .setBackgroundColor(Color.WHITE);
+
+
     }
 
 
@@ -233,7 +239,7 @@ public class MainActivity extends Activity  {
     }
 
     void createTabhost(){
-        EatWhatEatWhere Tab=new EatWhatEatWhere(tabHost,R.id.tab1,R.id.tab2,R.id.tab3,R.id.tab4);
+        EatWhatEatWhere Tab=new EatWhatEatWhere(tabHost,R.id.tab1,R.id.tab2,R.id.tab3);
         Tab.createTab();
 
 
